@@ -3,7 +3,7 @@ import BlogItem from "../components/BlogItem";
 import blogs from "../data/blog";
 import HeroImg from "../../public/blogImg.png";
 import Image from "next/image";
-export default function Blogs() {
+export default function Bloges() {
   return (
     // <div className="p-8">
     //   <h1 className="text-[60px] font-bold">Blog item</h1>
@@ -30,7 +30,7 @@ export default function Blogs() {
             voluptatem earum nemo. Ipsum eligendi ea exercitationem quisquam
             voluptas, quaerat rem voluptate quibusdam veniam?
           </p>
-          <div className="space-x-2">
+          {/* <div className="space-x-2">
             <Link href={"/blog1"} className="btn btn-primary">
               Blog1
             </Link>
@@ -40,6 +40,11 @@ export default function Blogs() {
             <Link href={"/blog3"} className="btn btn-primary">
               Blog3
             </Link>
+          </div> */}
+          <div className="btn btn-success space-x-2">
+            {blogs.map((blog) => (
+              <BlogItem key={blog.id} title={blog.title} />
+            ))}
           </div>
         </div>
       </div>
