@@ -1,7 +1,8 @@
 import Link from "next/link";
 import BlogItem from "../components/BlogItem";
 import blogs from "../data/blog";
-
+import HeroImg from "../../public/blogImg.png";
+import Image from "next/image";
 export default function Blogs() {
   return (
     // <div className="p-8">
@@ -18,18 +19,18 @@ export default function Blogs() {
     // </div>
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-          className="max-w-sm rounded-lg shadow-2xl"
-        />
+        <Image src={HeroImg} className="max-w-sm rounded-lg shadow-2xl" />
         <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
+          <h1 className="text-5xl font-bold">Blog Post!</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio natus
+            consectetur aspernatur? Magni deserunt tempore eveniet? At
+            temporibus, repellat, beatae nam eum qui pariatur odit nisi animi
+            dolores aut! Quasi voluptatum nisi iusto nostrum facere ex
+            voluptatem earum nemo. Ipsum eligendi ea exercitationem quisquam
+            voluptas, quaerat rem voluptate quibusdam veniam?
           </p>
-          <div className="mr-4">
+          <div className="space-x-2">
             <button className="btn btn-primary">Get Started</button>
             <button className="btn btn-primary">Get Started</button>
             <button className="btn btn-primary">Get Started</button>
