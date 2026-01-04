@@ -45,10 +45,13 @@ export default function Bloges() {
               Blog3
             </Link>
           </div> */}
-          <div className="btn btn-success space-x-2">
+          <div className=" flex gap-2">
             {blogs.map((blog) => (
               <BlogItem key={blog.id} title={blog.title} />
             ))}
+            <Link href={"/"} className="btn btn-primary">
+              Home
+            </Link>
           </div>
         </div>
       </div>
