@@ -19,7 +19,11 @@ export default function Bloges() {
     // </div>
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <Image src={HeroImg} className="max-w-sm rounded-lg shadow-2xl" />
+        <Image
+          src={HeroImg}
+          alt="heroImg"
+          className="max-w-sm rounded-lg shadow-2xl"
+        />
         <div>
           <h1 className="text-5xl font-bold">Blog Post!</h1>
           <p className="py-6">
