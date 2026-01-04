@@ -31,9 +31,15 @@ export default function Blogs() {
             voluptas, quaerat rem voluptate quibusdam veniam?
           </p>
           <div className="space-x-2">
-            <button className="btn btn-primary">Get Started</button>
-            <button className="btn btn-primary">Get Started</button>
-            <button className="btn btn-primary">Get Started</button>
+            <Link href={"/blog1"} className="btn btn-primary">
+              Blog1
+            </Link>
+            <Link href={"/blog2"} className="btn btn-primary">
+              Blog2
+            </Link>
+            <Link href={"/blog3"} className="btn btn-primary">
+              Blog3
+            </Link>
           </div>
         </div>
       </div>
