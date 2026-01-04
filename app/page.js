@@ -86,13 +86,12 @@ export default function Home() {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn">Button</a>
+            <Link href={"/blogs"} className="btn btn-success">
+              Blog
+            </Link>
           </div>
         </div>
       </div>
-      <Link href={"/blogs"} className="btn btn-primary">
-        Blog Button
-      </Link>
     </div>
   );
 }
