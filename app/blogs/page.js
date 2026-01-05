@@ -51,7 +51,13 @@ export default function Bloges() {
             ))}
             <Link href={"/"} className="btn btn-primary">
               Home
-            
+            <Link href={"/"} className="btn btn-primary">
+              Home
+            </Link><Link href={"/"} className="btn btn-primary">
+              Home
+            </Link><Link href={"/"} className="btn btn-primary">
+              Home
+            </Link>
           </div>
         </div>
       </div>
