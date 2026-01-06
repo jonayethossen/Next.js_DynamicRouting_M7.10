@@ -65,7 +65,7 @@ export default function Home() {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Item 1</a>
+                <a>Gallery</a>
               </li>
               <li>
                 <details>
