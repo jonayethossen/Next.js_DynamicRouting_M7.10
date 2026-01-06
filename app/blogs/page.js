@@ -25,7 +25,9 @@ export default function Bloges() {
 
           <div className=" flex gap-2">
             {blogs.map((blog) => (
-              <BlogItem key={blog.id} title={blog.title} />
+              <Link key={blog.id} href={`/blogs/${blog.id}`}>
+                <BlogItem title={blog.title} />
+              </Link>
             ))}
             <Link href={"/"} className="btn btn-primary">
               Home
