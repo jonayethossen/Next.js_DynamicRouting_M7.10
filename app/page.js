@@ -53,7 +53,7 @@ export default function Home() {
               </ul>
             </div>
             <a className="btn btn-ghost text-xl">
-              <span className="text-green-500 text-2xl font-bold">JONAYET</span>
+              <span className="text-[#00BF83] text-2xl font-bold">JONAYET</span>
               <span
                 className="text-white
               text-2xl font-bold"
