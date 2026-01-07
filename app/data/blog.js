@@ -9,7 +9,7 @@ const blogs = [
     id: "2",
     title: "The Growth Lab",
     description:
-      "Transform your life with actionable advice. The Growth Lab explores productivity hacks, mental wellness, and habit-building strategies designed to help you become the best version of yourself.",
+      "Transform your life for your actionable advice. The Growth Lab explores productivity hacks, mental wellness, and habit-building strategies designed to help you become the best version of yourself.",
   },
   {
     id: "3",
