@@ -3,7 +3,7 @@ const blogs = [
     id: "1",
     title: "TechPulse",
     description:
-      "Stay ahead  the curve with TechPulse. We provide in-depth reviews, latest tech news, and expert guides on smartphones, AI tools, and future electronics to help you make smarter tech choices.",
+      "Stay ahead  the curve with TechPulse. We provide depth reviews, latest tech news, and expert guides on smartphones, AI tools, and future electronics to help you make smarter tech choices.",
   },
   {
     id: "2",
