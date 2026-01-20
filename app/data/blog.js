@@ -15,7 +15,7 @@ const blogs = [
     id: "3",
     title: "Wanderlust Chronicles",
     description:
-      "Discover the world without breaking the bank. Wanderlust Chronicles shares detailed travel itineraries, packing tips, and stunning photography from the most beautiful hidden spots across the globe.",
+      "Discover world without breaking the bank. Wanderlust Chronicles shares detailed travel itineraries, packing tips, and stunning photography from the most beautiful hidden spots across the globe.",
   },
 ];
 export default blogs;
