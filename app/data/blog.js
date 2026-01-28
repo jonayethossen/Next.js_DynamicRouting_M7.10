@@ -16,12 +16,6 @@ const blogs = [
     title: "Wanderlust Chronicles",
     description:
       "Discover world without breaking the bank. Wanderlust Chronicles shares detailed travel itineraries, packing tips, and stunning photography from the most beautiful hidden spots across the globe.",
-  },{
-    id: "3",
-    title: "Wanderlust Chronicles",
-    description:
-      "Discover world without breaking the bank. Wanderlust Chronicles shares detailed travel itineraries, packing tips, and stunning photography from the most beautiful hidden spots across the globe.",
   },
-];
 ];
 export default blogs;
